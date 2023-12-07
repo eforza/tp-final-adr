@@ -15,7 +15,7 @@ Hemos decidido implementar un API Gateway como el punto de entrada unificado par
 - **Flexibilidad en la Migración**: A medida que se trasladan funciones al nuevo servicio, el API Gateway se puede actualizar fácilmente para apuntar a estos, facilitando una migración gradual y controlada.
 - **Seguridad y Control Centralizado**: Ofrece un punto para implementar medidas de seguridad, como autenticación y autorización, así como para realizar un seguimiento y monitorización del tráfico.
 
-### Alternativas Consideradas
+## Alternativas Consideradas
 - Uso de un enfoque basado en enrutamiento a nivel de balanceadores de carga o a través de un servicio de descubrimiento.
 - Mantener múltiples puntos de entrada para diferentes servicios, pero se descartó por la complejidad adicional para los clientes y el mantenimiento.
 
