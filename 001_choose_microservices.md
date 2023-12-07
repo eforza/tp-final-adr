@@ -1,7 +1,7 @@
 # ADR 001: Migración a Microservicios para el Sistema de Billetera Virtual
 
 ## Estado
-ACEPTADO - 05/12/2023
+ACEPTADO - 07/12/2023
 
 ## Contexto
 El sistema actual de billetera virtual se basa en un backend de Java con Spring Boot, encapsulando todas las funcionalidades, incluyendo el procesamiento de transacciones de pago, lectura de QR, manejo de cuentas de usuario y seguridad, en una única aplicación denominada Core. La aplicación se ejecuta en contenedores Docker y utiliza una única base de datos para el almacenamiento de datos.
