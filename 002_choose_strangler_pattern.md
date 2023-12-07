@@ -20,7 +20,7 @@ Orden de Migración
 - **Aprendizaje Progresivo**: Permite al equipo desarrollar competencias en microservicios gradualmente, lo cual es crucial dado el conocimiento limitado y la experiencia del equipo.
 - **Interfaz Clara**: Los servicios elegidos para comenzar tienen interfaces claras con el resto del sistema, facilitando la migración.
 
-### Riesgos y Restricciones
+## Riesgos y Restricciones
 - **Limitación de Experiencia**: El equipo tiene conocimiento y experiencia limitados en microservicios.
 - **Complejidad del Payment Service**: El alto valor y complejidad del Payment Service representa un desafío significativo.
 
