@@ -14,7 +14,7 @@ Problemas del Sistema Actual
 ## Decisión
 Decidimos migrar de una arquitectura monolítica a una basada en microservicios. Esta decisión está dirigida a mejorar la escalabilidad, la mantenibilidad y facilitar la introducción de nuevas características.
 
-### Restricciones y Riesgos Identificados
+## Restricciones y Riesgos Identificados
 - **Equipo con conocimiento limitado en microservicios** y poca experiencia (seniority).
 - Riesgos de **aumentar la complejidad** en la gestión de servicios distribuidos y comunicación entre microservicios.
   
