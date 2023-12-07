@@ -1,7 +1,7 @@
 # ADR 002: Uso del Patrón Strangler para la Migración a Microservicios
 
 ## Estado
-ACEPTADO - 05/12/2023
+ACEPTADO - 07/12/2023
 
 ## Contexto
 Como parte de la transición a una arquitectura de microservicios en nuestro sistema de billetera virtual, se propone la adopción del patrón Strangler para la migración. Este patrón implica reemplazar gradualmente partes de la aplicación existente con nuevos servicios.
