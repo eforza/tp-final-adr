@@ -6,7 +6,7 @@ ACEPTADO - 05/12/2023
 ## Contexto
 El sistema actual de billetera virtual se basa en un backend de Java con Spring Boot, encapsulando todas las funcionalidades, incluyendo el procesamiento de transacciones de pago, lectura de QR, manejo de cuentas de usuario y seguridad, en una única aplicación denominada Core. La aplicación se ejecuta en contenedores Docker y utiliza una única base de datos para el almacenamiento de datos.
 
-### Problemas del Sistema Actual
+Problemas del Sistema Actual
 - **Escalabilidad**: Dificultades para escalar durante picos de demanda debido a que todos los servicios corren en la misma aplicación.
 - **Mantenimiento y Actualización**: Retos en mantener y actualizar el sistema por tener un único proyecto y repositorio. Conflictos frecuentes en merges de código debido a la superposición en el trabajo en diferentes funcionalidades.
 - **Rendimiento**: Cuellos de botella en ciertos servicios que necesitan diferentes soportes de infraestructura.
