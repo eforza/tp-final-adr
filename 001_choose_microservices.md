@@ -18,7 +18,7 @@ Decidimos migrar de una arquitectura monolítica a una basada en microservicios.
 - **Equipo con conocimiento limitado en microservicios** y poca experiencia (seniority).
 - Riesgos de **aumentar la complejidad** en la gestión de servicios distribuidos y comunicación entre microservicios.
   
-### Alternativas Consideradas
+## Alternativas Consideradas
 - Refactorización del monolito sin migrar a microservicios.
 - Uso de arquitectura serverless para ciertos componentes.
 
