@@ -1,4 +1,4 @@
-# ADR 002: Uso del Patrón Strangler para la Migración a Microservicios
+# ADR 002: Uso del Patrón Strangler para la migración a microservicios
 
 ## Estado
 ACEPTADO - 07/12/2023
