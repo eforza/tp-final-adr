@@ -1,4 +1,4 @@
-# ADR 001: Migración a Microservicios para el Sistema de Billetera Virtual
+# ADR 001: Migración a microservicios para el sistema de billetera virtual
 
 ## Estado
 ACEPTADO - 07/12/2023
