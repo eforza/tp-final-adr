@@ -1,4 +1,4 @@
-# ADR 003: Implementación de un API Gateway en la Arquitectura de Microservicios
+# ADR 003: Implementación de un API Gateway en la arquitectura de microservicios
 
 ## Estado
 ACEPTADO - 06/12/2023
@@ -10,10 +10,10 @@ En el proceso de migrar nuestra arquitectura de billetera virtual a microservici
 Hemos decidido implementar un API Gateway como el punto de entrada unificado para todas las interacciones con los microservicios. Este API Gateway actuará como un intermediario que maneja y enruta las solicitudes a los servicios apropiados, ya sea en el monolito existente o en los nuevos microservicios.
 
 ### Justificación de la Decisión
-- **Simplificación de Interacciones con Clientes**: Proporciona un único punto de entrada, lo que simplifica la interacción de los clientes con nuestro sistema.
-- **Facilidad en el Enrutamiento**: Permite un enrutamiento eficiente y claro de las solicitudes a los servicios correspondientes, independientemente de si están en el monolito o distribuidos como microservicios.
-- **Flexibilidad en la Migración**: A medida que se trasladan funciones al nuevo servicio, el API Gateway se puede actualizar fácilmente para apuntar a estos, facilitando una migración gradual y controlada.
-- **Seguridad y Control Centralizado**: Ofrece un punto para implementar medidas de seguridad, como autenticación y autorización, así como para realizar un seguimiento y monitorización del tráfico.
+- **Simplificación de interacciones con clientes**: proporciona un único punto de entrada, lo que simplifica la interacción de los clientes con nuestro sistema.
+- **Facilidad en el enrutamiento**: permite un enrutamiento eficiente y claro de las solicitudes a los servicios correspondientes, independientemente de si están en el monolito o distribuidos como microservicios.
+- **Flexibilidad en la migración**: a medida que se trasladan funciones al nuevo servicio, el API Gateway se puede actualizar fácilmente para apuntar a estos, facilitando una migración gradual y controlada.
+- **Seguridad y control centralizado**: ofrece un punto para implementar medidas de seguridad, como autenticación y autorización, así como para realizar un seguimiento y monitorización del tráfico.
 
 ## Alternativas Consideradas
 - Uso de un enfoque basado en enrutamiento a nivel de balanceadores de carga o a través de un servicio de descubrimiento.
