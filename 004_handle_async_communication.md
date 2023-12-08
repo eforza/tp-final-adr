@@ -1,4 +1,4 @@
-# ADR 004: Uso de Colas de Mensajes para la Comunicación Asincrónica entre Servicios
+# ADR 004: Uso de colas de mensajes para la comunicación asincrónica entre servicios
 
 ## Estado
 PROPUESTA - 07/12/2023
@@ -10,15 +10,14 @@ En el contexto de nuestra migración a una arquitectura de microservicios para e
 Decidimos implementar colas de mensajes SQS (Simple Queue Service) y un sistema de publicación-suscripción utilizando SNS (Simple Notification Service) para la comunicación asincrónica entre servicios.
 
 ### Justificación de la Decisión
-- **Fiabilidad y Escalabilidad**: La comunicación asincrónica a través de colas SQS y SNS proporcionará un mecanismo robusto y escalable para el manejo de mensajes entre servicios.
-- **Desacoplamiento de Servicios**: Ayuda a desacoplar los servicios, permitiendo que operen de manera más independiente y manejen las solicitudes a su propio ritmo.
-- **Eficiencia en Procesamiento en Segundo Plano**: Las colas de mensajes son ideales para operaciones que no necesitan ser procesadas inmediatamente y pueden manejarse de manera más eficiente en segundo plano.
-- **Mejora en el Manejo de Cargas de Trabajo Pico**: Proporciona un enfoque más eficiente para manejar picos de carga, ya que los mensajes pueden ser encolados y procesados gradualmente.
+- **Fiabilidad y escalabilidad**: la comunicación asincrónica a través de colas SQS y SNS proporcionará un mecanismo robusto y escalable para el manejo de mensajes entre servicios.
+- **Desacoplamiento de servicios**: ayuda a desacoplar los servicios, permitiendo que operen de manera más independiente y manejen las solicitudes a su propio ritmo.
+- **Mejora en el manejo de cargas de trabajo pico**: Proporciona un enfoque más eficiente para manejar picos de carga, ya que los mensajes pueden ser encolados y procesados gradualmente.
 
 ## Riesgos y Restricciones
-- **Complejidad Adicional**: Introducir un sistema de colas de mensajes agrega una capa adicional de complejidad en la arquitectura.
-- **Requerimientos de Monitorización y Alertas**: Necesidad de un sistema de monitorización y alertas robusto para manejar y supervisar el flujo de mensajes.
-- **Capacitación del Equipo**: El equipo puede requerir formación adicional en la gestión y el uso de sistemas de colas de mensajes y publicación-suscripción.
+- **Complejidad adicional**: introducir un sistema de colas de mensajes agrega una capa adicional de complejidad en la arquitectura.
+- **Requerimientos de monitorización y alertas**: necesidad de un sistema de monitorización y alertas robusto para manejar y supervisar el flujo de mensajes.
+- **Capacitación del equipo**: el equipo puede requerir formación adicional en la gestión y el uso de sistemas de colas de mensajes y publicación-suscripción.
 
 ## Alternativas Consideradas
 - Mantener la comunicación sincrónica como única forma de comunicación, pese a sus limitaciones en términos de escalabilidad.
