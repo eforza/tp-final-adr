@@ -8,7 +8,7 @@ El sistema actual de billetera virtual se basa en un backend de Java con Spring 
 
 Problemas del Sistema Actual
 - **Escalabilidad**: Dificultades para escalar durante picos de demanda debido a que todos los servicios corren en la misma aplicación.
-- **Mantenimiento y Actualización**: Retos en mantener y actualizar el sistema por tener un único proyecto y repositorio. Conflictos frecuentes en merges de código debido a la superposición en el trabajo en diferentes funcionalidades.
+- **Mantenimiento y actualización**: Retos en mantener y actualizar el sistema por tener un único proyecto y repositorio. Conflictos frecuentes en merges de código debido a la superposición en el trabajo en diferentes funcionalidades.
 - **Rendimiento**: Cuellos de botella en ciertos servicios que necesitan diferentes soportes de infraestructura.
 
 ## Decisión
